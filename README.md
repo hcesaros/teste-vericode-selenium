@@ -14,7 +14,7 @@ O projeto consiste em um conjunto de testes automatizados que simulam a interaç
 * Preenchimento do formulário "Enter Insurant Data"
 
 # Tecnologias Utilizadas
-* selenium
+* Selenium
 * Java
 * Cumcumber
 
@@ -27,9 +27,10 @@ O projeto consiste em um conjunto de testes automatizados que simulam a interaç
 
 # Estrutura do Projeto
 
-O projeto está organizado da seguinte forma:
+O projeto está organizado no padrao PageObject da seguinte forma:
 
 * src/test/java/steps: Contém os arquivos de StepDefinition.
+* src/test/java/tests: Contem os arquivos de RunnerTest.
 * src/test/resources/features: Contém arquivos de feature.
 * driver: Pasta que armazena o chromedrive para a execuçao do selenium.
 * pom.xml: Arquivo de configuração do projeto.
